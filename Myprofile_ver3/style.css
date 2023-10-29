@@ -1,0 +1,205 @@
+@media screen and (min-width:768px){
+body {
+  min-width: 768px;
+  margin: 20px auto;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+#sp {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+p {
+  font-size: 18px;
+}
+
+#myprofile {
+  font-size: 34px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+  border: 1px solid black;
+}
+
+#div {
+  padding: 0 200px;
+}
+
+#nav {
+  font-size: 34px;
+}
+
+#nav > a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+#main-pic {
+  width: 100%;
+  margin-top: 20px;
+}
+
+#about,#works {
+  font-size: 34px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+article {
+  max-width: 960px;
+  margin: 0px auto;
+}
+
+
+#about-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+#about-section p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#mypic {
+  border-radius: 150px;
+  border: 3px solid gray;
+  padding: 3px;
+}
+
+#prf {
+  margin-top: 30px;
+}
+
+#works {
+  padding: 50px;
+}
+
+#works-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pic {
+  width:25%;
+  margin: 0 10px;
+}
+
+.picsize {
+  width:100%;
+}
+
+.pic p {
+  max-width: 100%;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+}
+/* スマホ用 */
+@media screen and (max-width:768px){
+  body {
+    min-width: 483px;
+    margin: 20px auto;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  
+  #sp {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  #myprofile {
+    font-size: 34px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    border: 1px solid black;
+  }
+  
+  #div {
+    padding: 0 100px;
+  }
+  
+  #nav {
+    font-size: 34px;
+  }
+  
+  #nav > a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  #main-pic {
+    width: 100%;
+    margin: 30px auto;
+  }
+  
+  article {
+    max-width: 767px;
+    /* min-width: 760px; */
+    margin: 20px auto;
+  }
+  
+  #about,#works {
+    font-size: 34px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #about-section {
+   display: flex;
+   /* ↓これがないと画像が大きくなる */
+   align-items: center; 
+   flex-direction: column;
+  }
+
+  #about-section p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #mypic {
+    border-radius: 150px;
+    border: 3px solid gray;
+    padding: 3px;
+  }
+  
+  #prf {
+    margin-top: 30px;
+  }
+  
+  #works {
+    padding: 10px;
+  }
+  
+  #works-section {
+    text-align: center;
+  }
+  
+  
+  footer {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+  }
