@@ -1,0 +1,194 @@
+@media screen and (min-width:768px){
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+header > h1 {
+  border: 1px solid black;
+  padding: 0 20px;
+}
+header h1 {
+  font-size: 34px;
+}
+/* AboutとWorks */
+nav {
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+  margin: 0 20px;
+}
+nav h1 {
+  font-size: 34px;
+  color: black;
+}
+
+/* カメラの写真 */
+#main-pic {
+  width: 100%;
+}
+/* about */
+#about {
+  font-size: 34px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#about-div {
+  display: flex;
+  justify-content: center;
+}
+
+#about-img{
+  border-radius: 80%;
+  border: 3px solid gray;
+  padding: 3px;
+  width: auto;
+}
+#profile {
+  font-size: 18px;
+  margin: 50px 0 0 50px;
+} 
+
+#profile h2 {
+  font-size: 24px;
+}
+
+#works-section {
+  margin-top: 100px;
+}
+
+#works {
+  font-size: 34px;
+  text-align: center;
+  width: 100%;
+}
+
+#pic {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.pic3 {
+  margin: 15px;
+  width:100%;
+}
+
+.pic3 img {
+  width: 100%;
+}
+.pic3 p {
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+}
+/* スマホ用 */
+@media screen and (max-width:768px) {
+  body {
+    max-width: 767px;
+    min-width:520px;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  header > h1 {
+    border: 1px solid black;
+    padding: 0 20px;
+  }
+  header h1 {
+    font-size: 34px;
+  }
+  /* AboutとWorks */
+  nav {
+    display: flex;
+  }
+  nav a {
+    text-decoration: none;
+    margin: 0 20px;
+  }
+  nav h1 {
+    font-size: 34px;
+    color: black;
+  }
+   #main-pic {
+    width: 100%;
+  }
+  /* about */
+  #about {
+    font-size: 34px;
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+   #about-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  #about-img{
+    border-radius: 80%;
+    border: 3px solid gray;
+    padding: 3px;
+    width: auto;
+  }
+
+  #profile {
+    font-size: 18px;    
+  } 
+
+  #profile h2 {
+    font-size: 24px;
+  }
+
+  
+  #works-section {
+    margin-top: 100px;
+  } 
+  
+  #works {
+    font-size: 34px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pic3 {
+    text-align: center;
+    width: 85%;
+  }
+  .pic3 p {
+    font-size: 18px;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+  }
+}
