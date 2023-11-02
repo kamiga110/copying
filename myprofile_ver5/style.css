@@ -161,7 +161,6 @@ footer {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    
   }
   
   .works-pic{
@@ -170,8 +169,8 @@ footer {
   }
   
   .works-pic img {
-    width:auto; 
-    margin: 50px;
+    width:100%;
+    max-width: 420px;
   }
   
   .works-pic p {
