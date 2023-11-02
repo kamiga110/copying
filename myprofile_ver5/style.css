@@ -161,17 +161,17 @@ footer {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    /* width: 60%; */
+    
   }
   
   .works-pic{
-    width: 85%;
-    margin: 0 auto;
+    text-align: center;
+    width: 100%;
   }
   
   .works-pic img {
-    width:100%;
-    
+    width:auto; 
+    margin: 50px;
   }
   
   .works-pic p {
