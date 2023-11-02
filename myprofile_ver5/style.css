@@ -1,0 +1,195 @@
+@media (min-width: 767px) {
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#nav-left h1{
+  font-size: 34px;
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+#nav-left a {
+  text-decoration: none;
+}
+
+#nav-right a{
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+#nav-right h1 {
+  font-size: 34px;
+  color: #000000;
+}
+
+#main-pic {
+  width: 100%;
+}
+
+#about,#works {
+  text-align: center;
+  font-size: 34px;
+  margin-top: 100px;
+}
+
+#about-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#about-pic img{
+  /* ↓width100%だとpadding分がはみ出る */
+  width: auto;
+  border-radius: 80%;
+  padding: 3px;
+  border: 1px solid gray;
+}
+
+#about-content li{
+  font-size: 18px;
+}
+
+#about-content {
+  margin-top:60px;
+}
+/* ここからチェック！ */
+#works-flex {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.works-pic{
+  width: 100%;
+  margin: 10px;
+}
+
+.works-pic img {
+  width:100%;
+  margin: 0 auto;
+}
+
+.works-pic p {
+  font-size: 18px;
+}
+
+article {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer p {
+  font-size: 18px;
+  text-align: center;
+}
+
+footer {
+  margin: 100px 0 50px 0;
+}
+}
+/* スマホ用 */
+@media (max-width: 767px) {
+  body {
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  #nav-left h1{
+    font-size: 34px;
+    border: 1px solid #000000;
+    color: #000000;
+  }
+  
+  #nav-left a {
+    text-decoration: none;
+  }
+  
+  #nav-right a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  #nav-right h1 {
+    font-size: 34px;
+    color: #000000;
+  }
+  
+  #main-pic {
+    width: 100%;
+  }
+  
+  #about,#works {
+    text-align: center;
+    font-size: 34px;
+    margin-top: 100px;
+  }
+  
+  #about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  #about-pic {
+    width: 100%;
+  }
+  
+  #about-pic img{
+    width: 100%;
+    border-radius: 80%;
+    padding: 3px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+  }
+  
+  #about-content li{
+    font-size: 18px;
+  }
+  
+  /* ここからチェック！ */
+  #works-flex {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60%;
+  }
+  
+  .works-pic{
+    width: 100%;
+    margin: 10px;
+  }
+  
+  .works-pic img {
+    width:100%;
+    margin: 0 auto;
+  }
+  
+  .works-pic p {
+    font-size: 18px;
+  }
+  
+  footer p {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  footer {
+    margin: 100px 0 50px 0;
+  }
+}
