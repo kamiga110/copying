@@ -46,7 +46,6 @@ nav {
 }
 
 #about-pic img{
-  /* ↓width100%だとpadding分がはみ出る */
   width: auto;
   border-radius: 80%;
   padding: 3px;
@@ -60,7 +59,7 @@ nav {
 #about-content {
   margin-top:60px;
 }
-/* ここからチェック！ */
+
 #works-flex {
   display: flex;
   justify-content: center;
@@ -146,10 +145,6 @@ footer {
     width: 100%;
   }
 
-  #about-pic {
-    width: 100%;
-  }
-  
   #about-pic img{
     width: 100%;
     border-radius: 80%;
@@ -162,7 +157,6 @@ footer {
     font-size: 18px;
   }
   
-  /* ここからチェック！ */
   #works-flex {
     display: flex;
     flex-direction: column;
