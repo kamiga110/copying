@@ -1016,38 +1016,38 @@ footer {
     #product div {
       margin-bottom: 20px;
     }
-    
+
     #product-main {
-      height: 230px;
+      height: 256px;
+      width: 100%;
       background-image: url("images/product/product-main.png");
       background-repeat: no-repeat;
       background-position-y: center;
-      background-size: 95% 85%;
-      margin-left: 20px;
+      background-size: auto 208px;
     }
     #product-title {
       background-color: #2710d5;
-      width: 40%;
+      width: 136px;
       color: #ffffff;
-      height: 100%;
+      height: 256px;
       border-radius: 0 248px 248px 0;
       position: relative;
     }
     #product-title > h1 {
       position: absolute;
-      top: 20px;
+      top: 0;
       left: 20px;
-      font-size: 30px;
+      font-size: 40px;
     }
     #product-title > span {
       position: absolute;
-      top: 90px;
+      top: 110px;
       left: 20px;
       font-size: 18px;
     }
     #product-title > div {
       position: absolute;
-      top: 120px;
+      top: 180px;
       left: 20px;
       font-size: 13px;
     }
