@@ -1,0 +1,59 @@
+header {
+  background-image: url(img/mainvisual\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 100vh;
+  width: 100%;
+}
+
+#nav {
+  text-align: right;
+  margin-right: 50px;
+}
+
+#nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-right: 20px;
+  margin-top: 10px;
+  text-shadow: 3px 3px gray;
+}
+
+#logo-div {
+  position: relative;
+}
+
+#cofee {
+  margin: 0 auto;
+  position: absolute;
+  top:40vh;
+  left: 0;
+  right:0;
+  filter: drop-shadow(2px 2px 20px white);
+}
+
+#menu {
+  background-image: url(img/menu.jpg);
+  margin-top: 30px;
+}
+
+.title-div {
+  height: 300px;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  font-size: 5rem;
+  color: white;
+}
